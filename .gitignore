@@ -1,0 +1,40 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+*.env
+!.env.example
+
+# Exclude user prompt file and generated artifacts
+AutoAnalyst_Antigravity_Prompt*.md
+Architecture.pdf
+Architecture.html
+frontend/architecture.html
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+autoanalyst.db
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & temporary files
+*.log
+*.tmp
+temp_*
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
